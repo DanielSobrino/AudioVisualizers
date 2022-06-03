@@ -17,8 +17,9 @@
     position: absolute;
     top: 0;
     left: 0;
+
     width: 100%;
-    height: 100%;
+    height: min(100vw, 100%);
 }
 
 #audio1 {
@@ -30,6 +31,14 @@
 #fileUpload {
     position: absolute;
     top: 150px;
+    left: 2rem;
     color: white;
+    z-index: 100;
+}
+
+#visualiserShape {
+    position: absolute;
+    right: 2rem;
+    top: 150px;
     z-index: 100;
 }
