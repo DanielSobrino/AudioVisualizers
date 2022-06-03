@@ -10,14 +10,27 @@
     </head>
     <body>
         <div id="container">
+            <div class="menu">
+                <audio id="audio1" controls></audio>
+                <input type="file" id="fileUpload" accept="audio/*" />
+                <select id="visualiserShape">
+                    <option value="vertical-bars">Vertical bars</option>
+                    <option value="circular-bars">Circular bars</option>
+                    <option value="spiral-bars">Spiral bars</option>
+                    <option value="whirl">Whirl</option>
+                    <option value="dot-galaxy">Dot galaxy</option>
+                </select>
+                <select id="numberOfBars">
+                    <option value="32">16</option>
+                    <option value="64">32</option>
+                    <option value="128">64</option>
+                    <option value="256">128</option>
+                    <option value="512">256</option>
+                    <option value="1024">512</option>
+                    <option value="2048">1024</option>
+                </select>
+            </div>
             <canvas id="canvas1"></canvas>
-            <audio id="audio1" controls></audio>
-            <input type="file" id="fileUpload" accept="audio/*" />
-            <select id="visualiserShape">
-                <option value="vertical-bars">Vertical bars</option>
-                <option value="circular-bars">Circular bars</option>
-                <option value="spiral-bars">Spiral bars</option>
-            </select>
         </div>
     </body>
 </html>
